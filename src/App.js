@@ -1,15 +1,17 @@
+import React from "react";
+import UseState from "./UseState";
+
 
 function App() {
+
+
+
+
   return (
     <div className="App">
-    <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-    </ul>
-    <button>next number</button>
+      <UseState />
     </div>
   );
 }
-
+//на баттон выешаю обработчик при клике который будет вызщывать функцию addnumber
 export default App;
